@@ -1,8 +1,7 @@
-package tdd_tp.ejercicioTres;
+package tdd_tp.ejercicio3;
 
 import org.junit.Assert;
 import org.junit.Test;
-import tdd_tp.ejercicioTres.CaculadoraPalindromo;
 
 public class Pruebaej3 {
     CaculadoraPalindromo calc = new CaculadoraPalindromo();

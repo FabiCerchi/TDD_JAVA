@@ -1,4 +1,4 @@
-package tdd_tp.ejercicioTres;
+package tdd_tp.ejercicio3;
 
 import java.util.ArrayList;
 

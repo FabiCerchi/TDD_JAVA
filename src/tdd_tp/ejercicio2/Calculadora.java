@@ -1,4 +1,4 @@
-package tdd_tp.ejercicioDos;
+package tdd_tp.ejercicio2;
 
 public class Calculadora {
     public static void main(String[] args) {

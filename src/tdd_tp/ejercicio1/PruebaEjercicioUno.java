@@ -1,4 +1,4 @@
-package tdd_tp.ejercicioUno;
+package tdd_tp.ejercicio1;
 import org.junit.Test;
 import org.junit.Assert;
 

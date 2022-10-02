@@ -1,5 +1,4 @@
-package tdd_tp.ejercicioTres;
-import tdd_tp.ejercicioTres.CaculadoraPalindromo;
+package tdd_tp.ejercicio3;
 
 public class main {
     public static void main(String[] args) {
