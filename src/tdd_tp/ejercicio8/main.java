@@ -1,4 +1,4 @@
-package tdd_tp.ejercicio3;
+package tdd_tp.ejercicio8;
 
 public class main {
     public static void main(String[] args) {
