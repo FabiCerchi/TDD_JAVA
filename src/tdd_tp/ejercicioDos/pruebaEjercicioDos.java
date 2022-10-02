@@ -3,7 +3,6 @@ package tdd_tp.ejercicioDos;
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.util.ArrayList;
 
 public class pruebaEjercicioDos {
     Calculadora cal = new Calculadora();
