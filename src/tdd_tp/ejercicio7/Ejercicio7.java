@@ -99,6 +99,8 @@ public class Ejercicio7 {
 
    }
 
+
+   //Quinto paso
    //se puede demostrar que todos los números enteros mayores que 28123 pueden escribirse como la
    //suma de dos números abundantes. Sin embargo, este límite superior no puede reducirse más por
    //análisis, aunque se sabe que el mayor número que no puede expresarse como suma de dos
@@ -136,5 +138,10 @@ public class Ejercicio7 {
       assertEquals(Integer.valueOf(6), abundantes.get(0));
       //Imprimo la qty de numeros abundantes hasta el limite superior
       System.out.println("La cantidad de numeros abundantes menores a 28123 es: "+ abundantes.size());
+   }
+
+   //Sexto paso
+   public void númerosEnterosPositivosQueNoSePuedenEscribirComoSumaDeDosAbundantes(){
+
    }
 }
