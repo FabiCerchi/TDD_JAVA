@@ -39,7 +39,7 @@ public class CaculadoraPalindromo {
     }
     public  boolean esPalindromoDecimal(long numero){
         String decimalDos = new StringBuilder(String.valueOf(numero)).reverse().toString();
-        return Long.valueOf(numero) == Long.valueOf(decimalDos);
+        return Long.valueOf(numero).equals(Long.valueOf(decimalDos));
     }
 
     public long sumaPalindromosDecBin(){
