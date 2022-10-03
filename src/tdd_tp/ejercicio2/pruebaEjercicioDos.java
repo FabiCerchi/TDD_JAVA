@@ -14,6 +14,12 @@ public class pruebaEjercicioDos {
     }
 
     @Test
+    public void sumaDosNumerosMenoresACero(){
+        int result = cal.sumar(-1,-1);
+        Assert.assertEquals(-2,result);
+    }
+
+    @Test
     public void sumaArrayNull(){
         //Si no tiene elementos
         int[] arr ={};
