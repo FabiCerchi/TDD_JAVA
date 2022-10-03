@@ -3,7 +3,7 @@ package tdd_tp.ejercicio8;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class Pruebaej3 {
+public class CalculadoraPalindromoTests {
     CaculadoraPalindromo calc = new CaculadoraPalindromo();
     @Test
     public void cambiarBase0(){

@@ -20,7 +20,6 @@ public class CaculadoraPalindromo {
         for (String str:binario){
             result+=str;
         }
-
         return Integer.parseInt(result);
     }
     public  ArrayList<String> reverseArr(ArrayList<String> arr){
@@ -33,19 +32,19 @@ public class CaculadoraPalindromo {
         return arrAux;
     }
 
-    public boolean esPalindromoBinario(int numero){
-        int binarioUno = cambiarBase(numero);
-        String binarioDos = new StringBuilder(String.valueOf(cambiarBase(numero))).reverse().toString();
-        return binarioUno == Integer.parseInt(binarioDos);
+    public boolean esPalindromoBinario(long numero){
+        String binarioUno = Long.toBinaryString(numero);
+        String binarioDos = Long.toBinaryString(numero);
+        return binarioUno.equals(binarioDos);
     }
-    public  boolean esPalindromoDecimal(int numero){
+    public  boolean esPalindromoDecimal(long numero){
         String decimalDos = new StringBuilder(String.valueOf(numero)).reverse().toString();
-        return numero == Integer.parseInt(decimalDos);
+        return Long.valueOf(numero) == Long.valueOf(decimalDos);
     }
 
-    public int sumaPalindromosDecBin(){
+    public long sumaPalindromosDecBin(){
         int suma = 0;
-        for (int i = 0; i < 10000; i++) {
+        for (long i = 0; i < 1000000; i++) {
             if (esPalindromoBinario(i) || esPalindromoDecimal(i)){
                 suma+=i;
             }
