@@ -34,7 +34,7 @@ public class CaculadoraPalindromo {
 
     public boolean esPalindromoBinario(long numero){
         String binarioUno = Long.toBinaryString(numero);
-        String binarioDos = Long.toBinaryString(numero);
+        String binarioDos = new StringBuilder(binarioUno).reverse().toString();
         return binarioUno.equals(binarioDos);
     }
     public  boolean esPalindromoDecimal(long numero){
